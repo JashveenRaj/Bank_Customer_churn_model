@@ -68,12 +68,15 @@ The project is hosted on the **cloud**, leveraging **cloud computing's scalabili
 ## 📁 **Repository Structure**
 
 ```
-├── dataset/
-│   ├── Bank_Churn_Modelling.csv       # Input dataset
+├── Bank_Customer_churn_model/
 ├── images/
 │   ├── output1.png                    # Output visualization 1
 │   ├── output2.png                    # Output visualization 2
-├── bank_customer_churn_model.py       # Python script for training and evaluation
+├── Notebook/
+|   ├── Bank_Customer_Churn_Model.ipynb # Jupyter Notebook of the Script
+├── src/
+|   ├── bank_customer_churn_model.py   # Python script for training and evaluation
+|   ├── requirements.txt               # pip install requirements.txt
 ├── README.md                          # This README file
 ```
 
@@ -82,10 +85,10 @@ The project is hosted on the **cloud**, leveraging **cloud computing's scalabili
 ## 🖼️ **Sample Outputs**
 
 ### Output 1: Confusion Matrix
-![Confusion Matrix](images/output1.png)
+![Precision](Images/Screenshot 2024-11-15 204103.png)
 
 ### Output 2: Feature Importance
-![Feature Importance](images/output2.png)
+![Graphs](Images/Screenshot 2024-11-15 204136.png)
 
 ---
 
